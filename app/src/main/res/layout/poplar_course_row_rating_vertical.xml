@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/course_menu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/click_1"
+    android:clickable="true"
+    android:padding="4dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_of_course"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_avartar" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name_of_course"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:text="Course name"
+                android:textSize="14sp" />
+
+            <io.techery.properratingbar.ProperRatingBar
+                android:id="@+id/rating"
+                android:layout_width="100dp"
+                android:layout_height="0dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:prb_defaultRating="4"
+                app:prb_symbolicTick="*"
+                app:prb_symbolicTickNormalColor="@android:color/darker_gray"
+                app:prb_symbolicTickSelectedColor="#ff9a15"
+                app:prb_totalTicks="5" />
+
+            <TextView
+                android:id="@+id/cost"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:text="Course name"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/more"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/rounded_corners_white"
+    android:padding="5dp"
+    android:text="200L"
+    android:textColor="#ff9a15"
+    android:textSize="14sp" />

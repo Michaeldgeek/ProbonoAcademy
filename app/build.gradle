@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.0"
+    defaultConfig {
+        applicationId "info.mykroft"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    compile 'com.android.support:appcompat-v7:25.0.0'
+    compile 'com.android.support:design:25.0.0'
+    compile 'com.android.support:cardview-v7:25.0.0'
+    compile 'com.android.support:recyclerview-v7:25.0.0'
+    compile 'com.afollestad.material-dialogs:core:0.9.0.1'
+    compile 'com.rengwuxian.materialedittext:library:2.1.4'
+    compile 'com.pnikosis:materialish-progress:1.7'
+    compile 'com.loopj.android:android-async-http:1.4.9'
+    compile 'com.google.firebase:firebase-core:9.8.0'
+    compile 'com.google.firebase:firebase-database:9.8.0'
+    compile 'com.google.firebase:firebase-storage:9.8.0'
+    compile 'com.facebook.android:facebook-android-sdk:4.16.1'
+    compile 'com.synnapps:carouselview:0.0.10'
+    compile 'de.hdodenhof:circleimageview:2.0.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.github.techery:properratingbar:0.0.5'
+    compile 'com.kyleduo.switchbutton:library:1.4.4'
+    compile 'com.afollestad:easyvideoplayer:0.3.0'
+    compile 'com.google.android.gms:play-services-auth:9.8.0'
+    testCompile 'junit:junit:4.12'
+}
+apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "218439974986",
+    "firebase_url": "https://probono-93bac.firebaseio.com",
+    "project_id": "probono-93bac",
+    "storage_bucket": "probono-93bac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218439974986:android:ed3bd6d403c1588d",
+        "android_client_info": {
+          "package_name": "info.mykroft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218439974986-ttit6rir9peek9bpvfotneqhgsljls4a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSTNAKyu86o2bVnCqF-xP0b14fBZzjuo0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
